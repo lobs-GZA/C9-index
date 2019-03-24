@@ -320,41 +320,49 @@
     position: absolute;
     top: 2570px;
 }
+
 .a-2 {
     position: absolute;
     top: 3300px;
     right: 0;
 }
+
 .a-3 {
     position: absolute;
     top: 3600px;
     left: 0;
 }
+
 .a-4 {
     position: absolute;
     top: 4100px;
     right: 0;
 }
+
 .a-5 {
     position: absolute;
     top: 4200px;
     left: 30px;
 }
+
 .a-6 {
     position: absolute;
     top: 4250px;
     right: 30px;
 }
+
 .a-7 {
     position: absolute;
     top: 4500px;
     left: 20px;
 }
-.a-8{
+
+.a-8 {
     position: absolute;
     top: 4700px;
     right: 0;
 }
+
 .a-9 {
     position: absolute;
     top: 4700px;

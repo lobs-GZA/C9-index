@@ -1,0 +1,135 @@
+/* personal */
+.line {
+    height: 20px;
+    margin-top: 72px;
+}
+
+.personal-content {
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    height: 706px;
+    background-color: white;
+}
+
+.personal-content span {
+    display: block;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    margin: 0px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.personal-avatar {
+    height: 100px;
+    width: 100px;
+    margin: 36px 550px 15px;
+    border-radius: 50%;
+    background-color: #999999;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+}
+
+.personal-avatar:hover .personal-avatar-hidden {
+    display: block;
+}
+
+.personal-avatar-hidden {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    height: 100px;
+    width: 100px;
+    line-height: 19px;
+    padding: 31px 36px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.personal-list {
+    margin-top: 60px;
+    height: 110px;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 532px;
+}
+
+.personal-list span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.personal-nickname {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    line-height: 30px;
+}
+
+.personal-input-div {
+    margin-left: 19px;
+}
+
+.personal-input-div span {
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.personal-input-1 {
+    width: 50px;
+    height: 30px;
+}
+
+.personal-input-hidden {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    display: none;
+}
+
+.personal-input-hidden span {
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.personal-input-2 {
+    width: 98px;
+    height: 30px;
+    border: 1px solid #EAEAEA;
+}
+
+.space {
+    margin-bottom: 25px;
+}
+
+.personal-list i {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

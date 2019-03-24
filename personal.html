@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang = "cn">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport"
+              content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        >
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <title>个人中心</title>
+        <link rel = "stylesheet" href = "./css/normalize.css">
+        <link rel = "stylesheet" href = "./css/clear.css">
+        <link rel = "stylesheet" href = "./css/common.css">
+        <link rel = "stylesheet" href = "./css/personal.css">
+        <link rel = "stylesheet" href = "./icomoon/style.css">
+    </head>
+    <body>
+        <!-- header -->
+        <div class = "header">
+            <div class = "w1200">
+                <div class = "logo">
+                    <h1><a href = "./index.html"><img src = "./images/logo.png" alt = ""></a></h1>
+                </div>
+                <ul>
+                    <li><a href = "./index.html">返回首页</a></li>
+                    <li><a href = "#" class = "active">个人中心</a></li>
+                    <li><a href = "./learn.html">学习中心</a></li>
+                    <li><a href = "./about.html">关于我们</a></li>
+                    <li><a href = "./union.html">联系我们</a></li>
+                    <li><a href = "./join.html">加盟我们</a></li>
+                </ul>
+                <div class = "header-right">
+                    <div><i class = "icon-font"></i>&nbsp;<span>123-132-1234</span></div>
+                    <div class = "header-avatar">
+                        <a href = "#">
+                            <img src = "" alt = "">
+                        </a>
+                        <u></u>
+                        <ol>
+                            <li><a href = "./learn.html">学习中心</a></li>
+                            <li><a href = "./personal.html">个人中心</a></li>
+                            <li><a href = "./index.html">安全退出</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- container -->
+        <div class = "container">
+            <div class = "w1200">
+                <div class = "line"></div>
+                <div class = "personal-content">
+                    <span>个人中心</span>
+                    <div class = "personal-avatar">
+                        <div class = "personal-avatar-hidden">
+                            <u>修改头像</u>
+                        </div>
+                        <img src = "" alt = "" class = "avatar">
+                    </div>
+                    <div class = "personal-avatar-text">
+                        <u>头像</u>
+                    </div>
+                    <div class = "personal-list">
+                        <div class = "space">
+                            微信号: <i style = "color: #FDB365;">未绑定</i>
+                        </div>
+                        <div class = "space">
+                            手机号: <i>157****6178</i>
+                        </div>
+                        <div class = "personal-nickname">
+                            昵称:
+                            <div class = "personal-input-hidden" id = "hidden">
+                                <input type = "text" value = "jetris" class = "personal-input-2">
+                                <i onclick = "save()" style = "color: #FDB365">保存</i>
+                                <i onclick = "save()">取消</i>
+                            </div>
+                            <div class = "personal-input-div" id = "input">
+                                <input type = "text" value = "jetris" class = "personal-input-1" readonly>
+                                <i onclick = "change()">编辑</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function change() {
+                document.getElementById("hidden").style.display = "block"
+                document.getElementById("input").style.display = "none"
+            }
+
+            function save() {
+                document.getElementById("hidden").style.display = "none"
+                document.getElementById("input").style.display = "block"
+            }
+        </script>
+
+    </body>
+</html>
