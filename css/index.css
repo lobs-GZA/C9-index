@@ -10,7 +10,9 @@
 .relative {
     position: relative;
     top: 100%;
+    left: 0;
     width: 100%;
+    overflow: hidden;
     background: url("../images/bg.png") fixed no-repeat top left;
     background-size: cover;
 }
